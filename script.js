@@ -54,7 +54,7 @@ function setupAddItemForm(items, metadata) {
         event.preventDefault();
         const name = document.getElementById('item-name').value;
         const description = document.getElementById('item-description').value;
-        const price = parseFloat(document.getElementById('item-price').value);
+        const price = parseFloat(document.getElementById('item-price').value;
 
         const newItem = { name, description, price };
         items.push(newItem);
