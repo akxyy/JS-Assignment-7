@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>GADGETS</h1>
+        <div id="description"></div>
+        <div id="card-container"></div>
+        <form id="add-item-form">
+            <h3>Add New Gadget</h3>
+            <input type="text" id="item-name" placeholder="Name">
+            <textarea id="item-description" placeholder="Description"></textarea>
+            <input type="number" id="item-price" placeholder="Price">
+            <button type="submit">Add Item</button>
+        </form>
+        <div id="controls">
+            <button onclick="filterByPrice()">Show Items Over $500</button>
+            <button onclick="sortItems('price','asc')">Sort by Price (Asc)</button>
+            <button onclick="sortItems('price', 'desc')">Sort by Price (Desc)</button>
+            <button onclick="sortItems('name', 'asc')">Sort by Name (Asc)</button>
+            <button onclick="sortItems('name', 'desc')">Sort by Name (Desc)</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
