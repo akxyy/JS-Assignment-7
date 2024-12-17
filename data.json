@@ -1,4 +1,4 @@
-{
+ {
     "description": "Collection of the latest electronic items available in our store",
     "metadata": {
         "author": "Jane Smith",
@@ -7,17 +7,17 @@
     "items": [
         {
             "name": "Smartphone",
-            "description": "Flagship smartphone with 5G support and advanced camera features",
+            "description": "Flagship smartphone with 5G support and advanced camera   features",
             "price": 799
         },
         {
             "name": "Laptop",
-            "description": "High-performance laptop with 16GB RAM and 512GB SSD storage",
+            "description": "High-performance laptop with 16GB RAM and 512GB SSD       storage",
             "price": 1200
         },
         {
             "name": "Tablet",
-            "description": "Lightweight tablet with 10-inch display, perfect for media and reading",
+            "description": "Lightweight tablet with 10-inch display, perfect for media and     reading",
             "price": 499
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "name": "Smartwatch",
-            "description": "Water-resistant smartwatch with heart rate monitor and GPS tracking",
+            "description": "Water-resistant smartwatch with heart rate monitor and GPS     tracking",
             "price": 299
         },
         {
@@ -54,6 +54,6 @@
             "name": "Drone",
             "description": "Camera drone with 1080p HD video and 30-minute flight time",
             "price": 400
-        }
+        } 
     ]
 }
